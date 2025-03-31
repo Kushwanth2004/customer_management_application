@@ -1,0 +1,7 @@
+runtime: nodejs22  # Change this to nodejs18 or nodejs20
+service: default
+env: standard
+
+handlers:
+  - url: /.*
+    script: auto

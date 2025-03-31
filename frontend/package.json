@@ -1,0 +1,80 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/css": "^11.13.4",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@hookform/resolvers": "^2.9.11",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/lab": "^5.0.0-alpha.112",
+    "@mui/material": "^5.16.7",
+    "@simplewebauthn/browser": "^13.1.0",
+    "@tabler/icons": "^1.119.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.4",
+    "date-fns": "^2.30.0",
+    "ethers": "^5.7.1",
+    "framer-motion": "^11.11.8",
+    "gridjs-react": "^6.1.1",
+    "jspdf": "^2.5.2",
+    "jwt-decode": "^3.1.2",
+    "lucide-react": "^0.453.0",
+    "nprogress": "^0.2.0",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.8.4",
+    "prop-types": "^15.8.1",
+    "qrcode": "^1.5.4",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-hot-toast": "^2.5.1",
+    "react-icons": "^5.3.0",
+    "react-modal": "^3.16.1",
+    "react-qr-code": "^2.0.15",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-bottom": "^4.2.0",
+    "react-slick": "^0.30.2",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
+    "slick-carousel": "^1.8.1",
+    "socket.io-client": "^4.8.0",
+    "web-vitals": "^2.1.4",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
