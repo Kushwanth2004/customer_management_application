@@ -16,7 +16,7 @@ const Dashboard = () => {
   }, []);
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-100">
       <h4 className="text-2xl font-bold">{greeting}</h4>
       <p className="text-gray-600">Welcome back! Here's an overview of your dashboard.</p>
     </div>
